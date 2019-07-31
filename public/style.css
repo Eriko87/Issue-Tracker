@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align:center;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  padding: 10px;
+  background-color: #E0E0E0;
+}
+/*index.html*/
+header{
+  font-size: 20px;
+  padding:30px;
+}
+#container{
+  display:flex;
+  padding: 30px;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.card{
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid grey;
+  width:100%;
+}
+.card h3{
+  padding: 10px;
+}
+form{
+  padding: 5px;
+}
+input{
+  width: 80%;
+  padding: 5px;
+  margin: 2px;
+}
+textarea{
+  width: 80%;
+  padding: 5px;
+  margin: 2px;
+}
+#closingissue{
+  width: 10px;
+  padding: 0px;
+  margin: 0px;
+}
+button{
+  padding: 5px;
+  margin: 10px;
+}
+
+#seeissues{
+  padding-bottom:30px;
+}
+/*issue.html*/
+
+#issueDisplay{
+  background-color: #fff;
+  display:flex;
+  flex-wrap: wrap;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 30px;
+}
+.issue {
+  margin: 10px auto;
+  padding: 5px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.closed {
+  background-color: lightgrey;
+}
+
+.id {
+  font-size: 13px;
+}
+.closeIssue{
+  font-size: 15px;
+  margin: 5px;
+}
+.deleteIssue{
+  font-size: 15px;
+  margin: 5px;
+}
+
